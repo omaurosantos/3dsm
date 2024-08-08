@@ -4,10 +4,10 @@ Repositório criado para postagem de tarefas executadas durante o terceiro semes
 <h2>Lista de matérias:</h2>
 <ul>
   <li><a href="https://github.com/omaurosantos/">Álgebra Linear</a> ♾️</li>
-  <a href="https://github.com/omaurosantos/"><li>Banco de Dados - Não relacional</a> 🪑 </li>
-  <a href="https://github.com/omaurosantos/"><li>Desenvolvimento Web III</a> 💻</li>
-  <a href="https://github.com/omaurosantos/"><li>Gestão Ágil de Projetos de Software</a> 🗂️ </li>
-  <a href="https://github.com/omaurosantos/"><li>Inglês I</a> 🇺🇸</li>
-  <a href="https://github.com/omaurosantos/"><li>Interação Humano Computador</a> 👤</li>
-  <a href="https://github.com/omaurosantos/"><li>Técnicas de Programação</a> 🖱️</li>
+  <li><a href="https://github.com/omaurosantos/">Banco de Dados - Não relacional</a> 🪑 </li>
+  <li><a href="https://github.com/omaurosantos/">Desenvolvimento Web III</a> 💻</li>
+  <li><a href="https://github.com/omaurosantos/">Gestão Ágil de Projetos de Software</a> 🗂️ </li>
+  <li><a href="https://github.com/omaurosantos/">Inglês I</a> 🇺🇸</li>
+  <li><a href="https://github.com/omaurosantos/">Interação Humano Computador</a> 👤</li>
+  <li><a href="https://github.com/omaurosantos/">Técnicas de Programação</a> 🖱️</li>
 </ul>
