@@ -3,11 +3,11 @@ Repositório criado para postagem de tarefas executadas durante o terceiro semes
 
 <h2>Lista de matérias:</h2>
 <ul>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Álgebra Linear</a> ♾️</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Banco de Dados - Não relacional</a> 🪑</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Desenvolvimento Web III</a> 💻</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Gestão Ágil de Projetos de Software</a> 🗂️</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Inglês I</a> 🇺🇸</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Interação Humano Computador</a> 👤</li>
-  <li><a href="https://github.com/omaurosantos/" style="color: inherit; text-decoration: none;">Técnicas de Programação</a> 🖱️</li>
+  <li><a href="#" style="text-decoration: none;">Álgebra Linear</a> ♾️</li>
+  <li><a href="#" style="text-decoration: none;">Banco de Dados - Não relacional</a> 🪑</li>
+  <li><a href="#" style="text-decoration: none;">Desenvolvimento Web III</a> 💻</li>
+  <li><a href="#" style="text-decoration: none;">Gestão Ágil de Projetos de Software</a> 🗂️</li>
+  <li><a href="#" style="text-decoration: none;">Inglês I</a> 🇺🇸</li>
+  <li><a href="#" style="text-decoration: none;">Interação Humano Computador</a> 👤</li>
+  <li><a href="#" style="text-decoration: none;">Técnicas de Programação</a> 🖱️</li>
 </ul>
