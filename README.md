@@ -3,7 +3,7 @@ Repositório criado para postagem de tarefas executadas durante o terceiro semes
 
 <h2>Lista de matérias:</h2>
 <ul>
-  <a href="https://github.com/omaurosantos/"><li>Álgebra Linear</a> ♾️</li>
+  <li><a href="https://github.com/omaurosantos/">Álgebra Linear</a> ♾️</li>
   <a href="https://github.com/omaurosantos/"><li>Banco de Dados - Não relacional</a> 🪑 </li>
   <a href="https://github.com/omaurosantos/"><li>Desenvolvimento Web III</a> 💻</li>
   <a href="https://github.com/omaurosantos/"><li>Gestão Ágil de Projetos de Software</a> 🗂️ </li>
