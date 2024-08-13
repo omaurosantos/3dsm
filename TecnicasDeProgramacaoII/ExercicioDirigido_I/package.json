@@ -1,0 +1,25 @@
+{
+  "name": "exerciciodirigido_i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "ts-node ./src/index",
+    "ex01": "ts-node ./src/ex01",
+    "ex02": "ts-node ./src/ex02",
+    "ex03": "ts-node ./src/ex03",
+    "ex04": "ts-node ./src/ex04",
+    "ex05": "ts-node ./src/ex05",
+    "ex06": "ts-node ./src/ex06",
+    "ex07": "ts-node ./src/ex07",
+    "ex08": "ts-node ./src/ex08",
+    "ex09": "ts-node ./src/ex09"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
