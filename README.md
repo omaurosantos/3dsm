@@ -9,5 +9,5 @@ Repositório criado para postagem de tarefas executadas durante o terceiro semes
   <li><a href="#" style="text-decoration: none;">Gestão Ágil de Projetos de Software</a> 🗂️</li>
   <li><a href="#" style="text-decoration: none;">Inglês I</a> 🇺🇸</li>
   <li><a href="#" style="text-decoration: none;">Interação Humano Computador</a> 👤</li>
-  <li><a href="#" style="text-decoration: none;">Técnicas de Programação</a> 🖱️</li>
+  <li><a href="https://github.com/omaurosantos/3dsm/tree/main/TecnicasDeProgramacaoII" style="text-decoration: none;">Técnicas de Programação</a> 🖱️</li>
 </ul>
