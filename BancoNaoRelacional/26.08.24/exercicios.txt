@@ -1,0 +1,92 @@
+EXERCÍCIO 1
+
+db.products.find(
+{},
+{
+nome:true,
+valor:true,
+_id:false
+},
+{
+sort:{nome:1}
+}
+);
+------------------
+
+EXERCÍCIO 2
+
+ db.products.find(
+... {
+... categoria: "Higiene pessoal"
+... },
+... {
+... nome:{$toUpper:"$nome"},
+... valor: true,
+... _id:false
+... },
+... {
+... sort:{nome:1}
+... }
+... )
+
+------------------
+
+EXERCÍCIO 3
+
+db.products.find(
+... {
+... quantidade: {$gt:30}
+... },
+... {
+... nome:true,
+... unidades:"$quantidade",
+... _id:false
+... },
+... {
+... sort:{quantidade:-1},
+... limit:2
+... }
+... )
+
+------------------
+
+EXERCÍCIO 4
+
+db.products.find(
+    {
+        quantidade:{$gt:30},
+        categoria:"Alimentação"
+    },
+    {
+        nome:true,
+        quantidade:true,
+        _id:false
+    },
+    {
+        sort:{quantidade:-1},
+        skip: 1,
+        limit:(1)
+    }
+)
+
+------------------
+
+EXERCÍCIO 5
+
+db.products.find(
+    {
+        $or:[
+            {quantidade:{$gt:40}},
+            {valor:{$lte:4}}
+        ]
+    },
+    {
+        nome:true,
+        valor:true,
+        quantidade:true,
+        _id:false
+    },
+    {
+        sort: {nome:1}
+    }
+)
