@@ -15,10 +15,7 @@ O sistema converte as entradas do usuário para números e realiza cálculos. Em
 <h1>Após clonar o respositório, utilize os seguintes comandos:</h1>
 
 <p>
-  1º - 
-  ˋˋˋ
-  npm i
-  ˋˋˋ </br> 
-  2º - ˋnpx tscˋ
-  3º - ˋnpx ts-node src/server.tsˋ
+  1º - npm i </br> 
+  2º - npx tsc </br> 
+  3º - npx ts-node src/server.ts
 </p>
