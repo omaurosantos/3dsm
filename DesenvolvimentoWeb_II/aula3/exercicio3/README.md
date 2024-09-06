@@ -12,3 +12,13 @@ Funcionalidades: Solicitação de Notas - A aplicação solicita ao usuário as 
 O sistema converte as entradas do usuário para números e realiza cálculos. Embora o exemplo não inclua validações avançadas, ele pode ser facilmente expandido para tratar casos como entradas não numéricas ou valores fora do intervalo esperado.
 </p>
 
+<h1>Após clonar o respositório, utilize os seguintes comandos:</h1>
+
+<p>
+  1º - 
+  ˋˋˋ
+  npm i
+  ˋˋˋ </br> 
+  2º - ˋnpx tscˋ
+  3º - ˋnpx ts-node src/server.tsˋ
+</p>
