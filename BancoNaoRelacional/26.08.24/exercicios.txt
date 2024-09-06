@@ -90,3 +90,184 @@ db.products.find(
         sort: {nome:1}
     }
 )
+
+------------------
+
+EXERCÍCIO 6
+
+db.products.find(
+    {
+        $where: function() {
+            return this.quantidade < this.minimo;
+        }
+    },
+    {
+        _id: 0,             
+        nome: 1,           
+        quantidade: 1,     
+        minimo: 1          
+    }
+).sort({ nome: 1 });      
+
+------------------
+
+EXERCÍCIO 7
+
+db.products.aggregate([
+    {
+        $group: {
+            _id: "$categoria",
+            total: { $sum: 1 }
+        }
+    },
+    {
+        $sort: { total: -1 }
+    },
+    {
+        $project: {
+            _id: 0,
+            categoria: "$_id",
+            total: 1
+        }
+    }
+]);
+
+------------------
+
+EXERCÍCIO 8
+
+db.products.aggregate([
+    {
+        $group: {
+            _id: "$categoria",
+            total: { $sum: 1 },
+            valorMedio: { $avg: "$valor" }
+        }
+    },
+    {
+        $sort: { total: -1 }
+    },
+    {
+        $project: {
+            _id: 0,
+            categoria: "$_id",
+            total: 1,
+            valorMedio: 1
+        }
+    }
+]);
+
+------------------
+
+EXERCÍCIO 9
+
+db.products.aggregate([
+    {
+        $group: {
+            _id: "$categoria",
+            totalUnidades: { $sum: "$quantidade" }
+        }
+    },
+    {
+        $sort: { totalUnidades: -1 }
+    },
+    {
+        $project: {
+            _id: 0,
+            categoria: "$_id",
+            totalUnidades: 1
+        }
+    }
+]);
+
+------------------
+
+EXERCÍCIO 10
+
+db.products.aggregate([
+    {
+        $group: {
+            _id: "$categoria",
+            total: { $sum: 1 }
+        }
+    },
+    {
+        $match: {
+            total: 2
+        }
+    },
+    {
+        $sort: { total: -1 }
+    },
+    {
+        $project: {
+            _id: 0,
+            categoria: "$_id",
+            total: 1
+        }
+    }
+]);
+
+------------------
+
+EXERCÍCIO 11
+
+db.products.updateMany(
+    { categoria: "Alimentação" },
+    {
+        $mul: { valor: 1.10 }
+    }
+);
+
+------------------
+
+EXERCÍCIO 12
+
+db.products.updateMany(
+    { valor: { $gt: 10 } },
+    {
+        $inc: { valor: 2 }
+    }
+);
+
+------------------
+
+EXERCÍCIO 13
+
+db.products.updateMany(
+    {},
+    [
+        {
+            $set: {
+                nome: { $toUpper: "$nome" }
+            }
+        }
+    ]
+);
+
+------------------
+
+EXERCÍCIO 14
+
+db.products.updateMany(
+    {},
+    [
+        {
+            $set: {
+                total: { $multiply: ["$valor", "$quantidade"] }
+            }
+        }
+    ]
+);
+
+------------------
+
+EXERCÍCIO 15
+
+db.products.updateMany(
+    {},
+    {
+        $set: { data: ISODate("2024-01-02") }
+    }
+);
+
