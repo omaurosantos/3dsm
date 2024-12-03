@@ -6,11 +6,12 @@ class FuncionarioModel {
     fone: string;
 
 
-    constructor(nome: string, email: string, fone: string, idade: number){
+    constructor(nome: string, idade: number, email: string, fone: string) {
         this.nome = nome;
+        this.idade = idade;
         this.email = email;
         this.fone = fone;
-        this.idade = idade;
+
     }
 }
 

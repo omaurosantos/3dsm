@@ -24,8 +24,8 @@ class FuncionarioController {
             } else if (error.errors && error.errors["fone"]) {
                 return res.json({ message: error.errors["fone"].message });
             }
-            return res.json({ message: error.message });   
-        } 
+            return res.json({ message: error.message });
+        }
     }
 
     // LIST

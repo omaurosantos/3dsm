@@ -8,11 +8,13 @@ const app = express();
 const PORT = 3000;
 const MONGODB_URI = 'mongodb://localhost:27017/crud_livros';
 
+//Middleware
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static('public'));
 app.use(express.json());
 
+//Conexão com MongoDB
 mongoose.connect(MONGODB_URI)
     .then(() => console.log('MongoDB conectado'))
     .catch(err => console.log('Erro ao conectar ao MongoDB', err));
@@ -41,7 +43,7 @@ app.get('/livros', async (req, res) => {
     }
 });
 
-app.put('/livros:id', async (req, res) => {
+app.put('/livros/:id', async (req, res) => {
     const { id } = req.params;
     const { titulo, autor, anoPublicacao } = req.body;
     try {

@@ -17,8 +17,6 @@ export default function connect() {
     // Utiliza o método connect do Mongoose para estabelecer a conexão com o MongoDB, usando a URI
     mongoose
         .connect(uri, {
-            serverSelectionTimeoutMS: 5000,
-            maxPoolSize: 10,
         })
         .then(() => console.log("Conectado ao MongoDB"))
         .catch((e) => {
